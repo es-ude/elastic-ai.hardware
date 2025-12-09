@@ -6468,7 +6468,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10µ"
 			(at 252.73 45.974 0)
 			(effects
 				(font
@@ -6603,7 +6603,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 181.61 45.72 0)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "470n"
 			(at 208.28 60.96 0)
 			(effects
 				(font
@@ -7007,7 +7007,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 217.17 45.72 0)
 			(effects
 				(font
@@ -7076,7 +7076,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10µ"
 			(at 217.17 61.214 0)
 			(effects
 				(font
@@ -7211,7 +7211,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10µ"
 			(at 208.28 76.454 0)
 			(effects
 				(font
@@ -7480,7 +7480,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 181.61 60.96 0)
 			(effects
 				(font
@@ -7615,7 +7615,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "470n"
 			(at 234.95 45.72 0)
 			(effects
 				(font
@@ -7684,7 +7684,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 190.5 60.96 0)
 			(effects
 				(font
@@ -7818,7 +7818,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 225.044 146.812 0)
 			(effects
 				(font
@@ -7886,7 +7886,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 199.39 45.72 0)
 			(effects
 				(font
@@ -7955,7 +7955,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "470n"
 			(at 88.9 43.434 0)
 			(effects
 				(font
@@ -8024,7 +8024,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 97.79 43.18 0)
 			(effects
 				(font
@@ -8361,7 +8361,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 199.39 76.2 0)
 			(effects
 				(font
@@ -8631,7 +8631,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 115.57 43.18 0)
 			(effects
 				(font
@@ -8965,7 +8965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -9034,7 +9034,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 208.28 45.72 0)
 			(effects
 				(font
@@ -9237,7 +9237,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -9306,7 +9306,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "470n"
 			(at 243.84 45.974 0)
 			(effects
 				(font
@@ -9375,7 +9375,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "18p"
 			(at 95.25 163.8299 0)
 			(effects
 				(font
@@ -9445,7 +9445,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "18p"
 			(at 121.92 163.8299 0)
 			(effects
 				(font
@@ -9513,7 +9513,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "5k1"
 			(at 216.154 146.812 0)
 			(effects
 				(font
@@ -9581,7 +9581,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "470n"
 			(at 226.06 45.72 0)
 			(effects
 				(font
@@ -9649,7 +9649,7 @@
 				)
 			)
 		)
-		(property "Value" "12.1K"
+		(property "Value" "10k"
 			(at 172.974 130.302 0)
 			(effects
 				(font
@@ -9717,7 +9717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 106.68 43.18 0)
 			(effects
 				(font
@@ -9786,7 +9786,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 199.39 60.96 0)
 			(effects
 				(font
@@ -9985,7 +9985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -10054,7 +10054,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100n"
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -10123,7 +10123,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10µ"
 			(at 80.01 43.434 0)
 			(effects
 				(font
@@ -10192,7 +10192,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10µ"
 			(at 80.01 61.214 0)
 			(effects
 				(font
@@ -10248,9 +10248,9 @@
 		(at 107.95 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "feec9f3f-9636-4157-a1b6-20731c705233")
 		(property "Reference" "R614"
 			(at 107.95 137.668 90)

@@ -6097,7 +6097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 124.206 165.1 0)
 			(effects
 				(font
@@ -6167,7 +6167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kR"
+		(property "Value" "100k"
 			(at 36.83 66.0399 0)
 			(effects
 				(font
@@ -6236,7 +6236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kR"
+		(property "Value" "100k"
 			(at 91.948 64.77 0)
 			(effects
 				(font
@@ -6374,7 +6374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 264.668 35.56 0)
 			(effects
 				(font
@@ -6512,7 +6512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180K"
+		(property "Value" "180k"
 			(at 245.364 77.47 0)
 			(effects
 				(font
@@ -6582,7 +6582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 29.21 172.72 0)
 			(effects
 				(font
@@ -6720,7 +6720,7 @@
 				)
 			)
 		)
-		(property "Value" "120K"
+		(property "Value" "120k"
 			(at 254 39.624 90)
 			(effects
 				(font
@@ -6788,7 +6788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 264.668 57.15 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 48.26 152.4 0)
 			(effects
 				(font
@@ -6926,7 +6926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 264.668 132.08 0)
 			(effects
 				(font
@@ -6995,7 +6995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 245.618 110.49 0)
 			(effects
 				(font
@@ -7064,7 +7064,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47µ"
 			(at 161.544 31.75 0)
 			(effects
 				(font
@@ -7197,7 +7197,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uH"
+		(property "Value" "3.3u"
 			(at 222.504 52.324 90)
 			(effects
 				(font
@@ -7273,7 +7273,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uH"
+		(property "Value" "2.2u"
 			(at 222.504 72.644 90)
 			(effects
 				(font
@@ -7349,7 +7349,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uH"
+		(property "Value" "3.3u"
 			(at 222.504 127.254 90)
 			(effects
 				(font
@@ -7496,7 +7496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8pF"
+		(property "Value" "6p8"
 			(at 232.918 110.49 0)
 			(effects
 				(font
@@ -7565,7 +7565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 99.06 152.4 0)
 			(effects
 				(font
@@ -7621,7 +7621,7 @@
 		(at 243.84 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4aae3742-60b6-44af-afe6-dd28c3b5e97d")
@@ -7764,7 +7764,7 @@
 				)
 			)
 		)
-		(property "Value" "180K"
+		(property "Value" "180k"
 			(at 254 136.144 90)
 			(effects
 				(font
@@ -7819,7 +7819,7 @@
 		(at 243.84 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4eac6d0d-090c-4e85-97e3-2eccdcb805b1")
@@ -7898,7 +7898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 114.046 165.1 0)
 			(effects
 				(font
@@ -8104,7 +8104,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47µ"
 			(at 160.274 106.68 0)
 			(effects
 				(font
@@ -8160,7 +8160,7 @@
 		(at 243.84 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5ef9b515-a655-45ea-92d7-8bdceec1084f")
@@ -8239,7 +8239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 112.776 182.88 0)
 			(effects
 				(font
@@ -8384,7 +8384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.7pF"
+		(property "Value" "3p3"
 			(at 233.172 77.47 0)
 			(effects
 				(font
@@ -8453,7 +8453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kR"
+		(property "Value" "100k"
 			(at 78.232 64.77 0)
 			(effects
 				(font
@@ -8523,7 +8523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120K"
+		(property "Value" "120k"
 			(at 170.18 71.1199 0)
 			(effects
 				(font
@@ -8726,7 +8726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3pF"
+		(property "Value" "3p3"
 			(at 232.918 132.08 0)
 			(effects
 				(font
@@ -8795,7 +8795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 264.668 152.4 0)
 			(effects
 				(font
@@ -8997,7 +8997,7 @@
 				)
 			)
 		)
-		(property "Value" "120K"
+		(property "Value" "120k"
 			(at 254 60.96 90)
 			(effects
 				(font
@@ -9212,7 +9212,7 @@
 		(at 100.33 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7be24106-dfcc-46e9-8545-51705820cedf")
@@ -9292,7 +9292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 88.9 87.6299 0)
 			(effects
 				(font
@@ -9360,7 +9360,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5uH"
+		(property "Value" "1.5u"
 			(at 222.504 30.734 90)
 			(effects
 				(font
@@ -9696,7 +9696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.7pF"
+		(property "Value" "3p3"
 			(at 232.918 152.4 0)
 			(effects
 				(font
@@ -9960,7 +9960,7 @@
 				)
 			)
 		)
-		(property "Value" "200K"
+		(property "Value" "200k"
 			(at 254 114.554 90)
 			(effects
 				(font
@@ -10028,7 +10028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150K"
+		(property "Value" "150k"
 			(at 245.364 57.15 0)
 			(effects
 				(font
@@ -10162,7 +10162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30K"
+		(property "Value" "30k"
 			(at 245.364 35.56 0)
 			(effects
 				(font
@@ -10208,130 +10208,6 @@
 			(project "digital_board_v1"
 				(path "/5ab81275-8e87-4458-a12a-b80c278e5884/2b674874-298c-45a6-9504-56b9f0c3176d"
 					(reference "R107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "common_library:LTC3569EUDPBF")
-		(at 198.12 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fe57553-624b-46b8-81f8-068c95a3a9dd")
-		(property "Reference" "U102"
-			(at 198.628 16.256 0)
-			(effects
-				(font
-					(size 2.0859 1.773)
-				)
-			)
-		)
-		(property "Value" "LTC3569EUDPBF"
-			(at 198.628 20.066 0)
-			(effects
-				(font
-					(size 2.0845 1.7718)
-				)
-			)
-		)
-		(property "Footprint" "custom_library:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm"
-			(at 191.77 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/en/products/ltc3569.html"
-			(at 191.77 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "8dda918f-bdbe-4f14-8674-e5f51ab4f0aa")
-		)
-		(pin "1"
-			(uuid "ce8e4a1b-d953-4cb3-af9f-df463375bdd7")
-		)
-		(pin "20"
-			(uuid "0bb127c3-968d-4358-95d2-c3799ff2e75a")
-		)
-		(pin "16"
-			(uuid "f231c7c6-8d05-41d6-8e63-9e9d4cd0a4fd")
-		)
-		(pin "19"
-			(uuid "62a24f6a-7bca-48b0-89b3-39fbe11f7186")
-		)
-		(pin "11"
-			(uuid "0e6bddba-e794-4b80-80de-948600ecc755")
-		)
-		(pin "7"
-			(uuid "76fec991-48f4-47ad-b647-756d085fb73e")
-		)
-		(pin "13"
-			(uuid "11d1ed54-77e3-42c4-a3df-c9e1515dbdc4")
-		)
-		(pin "3"
-			(uuid "8000dfaa-6e66-4aea-8a38-527c26d94931")
-		)
-		(pin "10"
-			(uuid "42e23c95-820a-43c3-b0ed-50dc5a63728e")
-		)
-		(pin "14"
-			(uuid "09109c20-f0c3-4dcc-8f95-709648abe046")
-		)
-		(pin "15"
-			(uuid "512421ae-2563-4f05-b460-ac69be768685")
-		)
-		(pin "4"
-			(uuid "25dfb1b4-2b87-4d05-bb31-52ac899f1185")
-		)
-		(pin "6"
-			(uuid "bdf6678b-24f5-4465-9c80-4c17e85745c1")
-		)
-		(pin "17"
-			(uuid "5e9c1de8-7933-48f9-8581-2453d01086de")
-		)
-		(pin "21"
-			(uuid "c8729e79-ad94-467c-a90b-390aab5487ab")
-		)
-		(pin "8"
-			(uuid "d8c2597f-08e9-4c4e-ab1f-e3d9ec3bc687")
-		)
-		(pin "18"
-			(uuid "14988ee8-6514-405a-b959-9b8578aee2ff")
-		)
-		(pin "5"
-			(uuid "396b2367-4313-4778-93c4-b970d1b12916")
-		)
-		(pin "12"
-			(uuid "929c9685-f4ea-4369-b599-b03116a0852a")
-		)
-		(pin "2"
-			(uuid "0c1a5ad7-ffc1-4a26-a570-34b18f787b2e")
-		)
-		(instances
-			(project "digital_board_v1"
-				(path "/5ab81275-8e87-4458-a12a-b80c278e5884/2b674874-298c-45a6-9504-56b9f0c3176d"
-					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -10487,7 +10363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kR"
+		(property "Value" "100k"
 			(at 102.108 64.77 0)
 			(effects
 				(font
@@ -10556,7 +10432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 264.668 110.49 0)
 			(effects
 				(font
@@ -10624,7 +10500,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uH"
+		(property "Value" "3.3u"
 			(at 222.504 105.664 90)
 			(effects
 				(font
@@ -10688,7 +10564,7 @@
 		(at 243.84 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a330f2ee-8c26-4d49-acb9-7b938383189c")
@@ -10897,7 +10773,7 @@
 				)
 			)
 		)
-		(property "Value" "57.6K"
+		(property "Value" "57k6"
 			(at 254 88.646 90)
 			(effects
 				(font
@@ -10952,7 +10828,7 @@
 		(at 243.84 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a76a5188-c767-4c22-b68e-706d3beb8446")
@@ -11032,7 +10908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "100n"
 			(at 41.91 172.7199 0)
 			(effects
 				(font
@@ -11166,7 +11042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 55.626 182.88 0)
 			(effects
 				(font
@@ -11218,6 +11094,131 @@
 		)
 	)
 	(symbol
+		(lib_id "common_library:LTC3569EUDPBF")
+		(at 198.12 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b97b9d88-a7f4-4a5b-8d40-e2af4812a461")
+		(property "Reference" "U102"
+			(at 198.12 16.51 0)
+			(effects
+				(font
+					(size 2.0859 1.773)
+				)
+			)
+		)
+		(property "Value" "LTC3569EUDPBF"
+			(at 198.12 20.32 0)
+			(effects
+				(font
+					(size 2.0845 1.7718)
+				)
+			)
+		)
+		(property "Footprint" "custom_library:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/ltc3569.html"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "91083dbf-208f-4437-ad7a-3dfd351ef61f")
+		)
+		(pin "1"
+			(uuid "11917a9d-486a-4262-aefc-2889bd1cbf91")
+		)
+		(pin "20"
+			(uuid "c586304d-9be6-46fd-98b4-391c111c44a0")
+		)
+		(pin "16"
+			(uuid "3fa7ea3b-bbf1-4430-af36-2638c960ef17")
+		)
+		(pin "19"
+			(uuid "357e691d-1469-4518-aeba-2c1ce6c61e4f")
+		)
+		(pin "11"
+			(uuid "a159120c-19e1-4e6f-985d-4926641369b1")
+		)
+		(pin "7"
+			(uuid "21f1ba88-9860-44a8-b279-b63b5670de38")
+		)
+		(pin "13"
+			(uuid "7a032f76-1fea-432e-9949-72a3a40927a1")
+		)
+		(pin "3"
+			(uuid "fe860baa-3f1b-47f2-8f28-d920b3214a11")
+		)
+		(pin "10"
+			(uuid "837b1d66-60b0-4c9e-8905-ab22e4f46bd7")
+		)
+		(pin "14"
+			(uuid "3bb2d6f9-c907-4c57-93d6-fd947e5e1621")
+		)
+		(pin "15"
+			(uuid "04c0a5d6-f73c-422c-b896-e9c5d317f9a8")
+		)
+		(pin "4"
+			(uuid "56d0e3a0-04df-4886-a005-6d4a890805af")
+		)
+		(pin "6"
+			(uuid "6d2edb64-cb05-4b58-ac34-2e56cab7f782")
+		)
+		(pin "17"
+			(uuid "7b9b1cf1-4320-426a-b1e4-b218c97caa11")
+		)
+		(pin "21"
+			(uuid "ea13adbf-f1c0-40de-850e-fe9936120783")
+		)
+		(pin "8"
+			(uuid "aa982fda-1df3-409a-a944-e5f855fc94ce")
+		)
+		(pin "18"
+			(uuid "795f25b9-046a-4027-b206-d1aa5276e27a")
+		)
+		(pin "5"
+			(uuid "55fe34de-d881-48cd-85fe-16d5d21f5270")
+		)
+		(pin "12"
+			(uuid "73ee1327-26b0-4a0d-bc6a-c1905f88f3ce")
+		)
+		(pin "2"
+			(uuid "bd97874c-20c3-4cd6-8c6a-8fc09e4fa3e0")
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884/2b674874-298c-45a6-9504-56b9f0c3176d"
+					(reference "U102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "passive:C0603")
 		(at 35.56 151.13 0)
 		(unit 1)
@@ -11235,7 +11236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 38.1 152.4 0)
 			(effects
 				(font
@@ -11369,7 +11370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8pF"
+		(property "Value" "6p8"
 			(at 232.664 35.56 0)
 			(effects
 				(font
@@ -11439,7 +11440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120K"
+		(property "Value" "120k"
 			(at 168.91 146.0499 0)
 			(effects
 				(font
@@ -11508,7 +11509,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 103.886 165.1 0)
 			(effects
 				(font
@@ -11577,7 +11578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3pF"
+		(property "Value" "3p3"
 			(at 232.918 57.15 0)
 			(effects
 				(font
@@ -11832,7 +11833,7 @@
 		(at 101.6 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d87c84cb-119d-48ab-b25c-7b97c401cae9")
@@ -11981,7 +11982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100n"
 			(at 38.1 87.6299 0)
 			(effects
 				(font
@@ -12247,7 +12248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 29.21 162.56 0)
 			(effects
 				(font
@@ -12316,7 +12317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µ"
 			(at 264.668 77.47 0)
 			(effects
 				(font
@@ -12385,7 +12386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 124.206 182.88 0)
 			(effects
 				(font

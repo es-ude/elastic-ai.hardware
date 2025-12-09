@@ -5356,7 +5356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5kR"
+		(property "Value" "1k5"
 			(at 92.71 78.7399 0)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 		(at 81.28 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "24318e2f-a680-4c5b-b513-0e6cef32978f")
@@ -5839,7 +5839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1kR"
+		(property "Value" "5k1"
 			(at 62.484 69.596 0)
 			(effects
 				(font
@@ -6708,7 +6708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1kR"
+		(property "Value" "5k1"
 			(at 76.2 69.8499 0)
 			(effects
 				(font
@@ -6777,7 +6777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 94.488 158.75 0)
 			(effects
 				(font
@@ -7112,7 +7112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 147.828 158.75 0)
 			(effects
 				(font
@@ -7377,7 +7377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 121.158 158.75 0)
 			(effects
 				(font
@@ -7515,7 +7515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120K"
+		(property "Value" "120k"
 			(at 207.518 33.02 0)
 			(effects
 				(font
@@ -7653,7 +7653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120K"
+		(property "Value" "120k"
 			(at 216.408 33.02 0)
 			(effects
 				(font
