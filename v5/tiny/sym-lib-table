@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "elasticnode_tiny-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/elasticnode_tiny-eagle-import.kicad_sym")(options "")(descr ""))
+)
