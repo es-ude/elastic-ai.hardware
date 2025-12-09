@@ -4,3 +4,9 @@
 *.b#*
 *.pro
 .DS_Store
+
+# KiCad artefacts
+**/*-backups
+**/fp-info-cache
+**/*.lck
+

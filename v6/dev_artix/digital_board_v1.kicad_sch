@@ -1,0 +1,1118 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5ab81275-8e87-4458-a12a-b80c278e5884")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "MCU 3V3 will be from \nthe Pico 2 W's V Regulators"
+		(exclude_from_sim no)
+		(at 35.56 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43446335-81a5-496c-9613-05043c6ccc5b")
+	)
+	(text "Comments(haven't been totally solved):\n- Devices are already in the library and in the schematic. Please check the pinouts\n- Add oscillators for all devices (if necesary, FPGA, Ethernet)\n"
+		(exclude_from_sim no)
+		(at 26.162 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "9c3bd91a-6574-4eb7-8145-21b132ed4430")
+	)
+	(wire
+		(pts
+			(xy 63.5 30.48) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004b13d3-f6f5-42b2-893d-6985b608cd54")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f60e42-aa45-4794-9d83-2c9c27eca299")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b751fb6-5237-41e1-8182-3552899994d5")
+	)
+	(wire
+		(pts
+			(xy 63.5 33.02) (xy 66.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c27f69-c9f2-43f6-8205-2ae5f6a24552")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b46f6f-1280-466d-84e4-da7e207a7e2e")
+	)
+	(wire
+		(pts
+			(xy 63.5 44.45) (xy 66.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219548c6-dbdf-4358-922c-69a61154d9c8")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 173.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c03422c-5ef4-4fbf-963e-eb45dc718043")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57037e5b-1753-43f9-9490-94ef9503efab")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 66.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d32f1b2-de30-44ae-8fa4-52fff663c9bf")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811262fa-4a47-417f-85b8-2f49e3d5fce3")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9084fe6b-5e92-463c-8416-575c0b97762d")
+	)
+	(wire
+		(pts
+			(xy 170.18 73.66) (xy 173.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7a44c1-656c-401d-a66b-cff970272d8d")
+	)
+	(wire
+		(pts
+			(xy 63.5 49.53) (xy 66.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c01381-50ae-40db-a2bf-0da1759affe0")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 66.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b8a7f1-2953-478b-9a02-2ad3f1621416")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0de790e-03d3-49c4-88b8-aaac29034517")
+	)
+	(wire
+		(pts
+			(xy 63.5 46.99) (xy 66.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2532853-bab0-49b3-b0b9-4c2731f15837")
+	)
+	(label "VCC_1V2"
+		(at 66.04 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1769d573-0059-4bcd-bc48-d37dd2536d40")
+	)
+	(label "VCC_3V3"
+		(at 115.57 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33c2a4c1-3cd9-4bf8-8e9d-f3ef6c8364bd")
+	)
+	(label "DDR_VREF"
+		(at 66.04 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bfb1f9c-730f-4f86-aadc-98b73f07e0c5")
+	)
+	(label "DDR_VDD"
+		(at 66.04 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e3bcfbc-964c-4a6c-9672-2009db94dc0c")
+	)
+	(label "VCC_3V3"
+		(at 173.99 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63725352-effe-49bd-8816-1f20a109d521")
+	)
+	(label "DDR_VDD"
+		(at 139.7 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b593ded-8f02-4fc1-988a-b9f5528ce72e")
+	)
+	(label "VCC_1V8"
+		(at 66.04 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "889fa13e-3187-4e45-97f4-edc40f2b7250")
+	)
+	(label "VCC_1V2"
+		(at 173.99 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d3ba3f-333d-4793-9ee0-f3cbfa2b60fe")
+	)
+	(label "DDR_VREF"
+		(at 139.7 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0459525-0b8a-4a4e-b672-d023baabe138")
+	)
+	(label "DDR3_VTT"
+		(at 139.7 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1f3523e-a333-44c1-a1ad-bdab07aa477e")
+	)
+	(label "VCC_3V3"
+		(at 81.28 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4138bd8-b42a-4091-80af-1221379d56e9")
+	)
+	(label "DDR3_VTT"
+		(at 66.04 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6d96f34-e266-4d82-be3a-f6aa8186f6c7")
+	)
+	(label "VCC_1V8"
+		(at 107.95 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5528bfb-85de-4667-8b59-332c43f9a195")
+	)
+	(label "VCC_3V3"
+		(at 66.04 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b89e7c67-5948-476d-b967-72f80e0fbd9d")
+	)
+	(label "VCC_1V"
+		(at 107.95 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee7ec467-cbcb-4843-94f0-ffb06f5a3757")
+	)
+	(label "VCC_1V"
+		(at 66.04 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f980c2ac-e9aa-4b61-94ee-071ae5541186")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 17.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f43a82-d24b-4a87-b15b-511024ce1e2a")
+		(property "Reference" "H1"
+			(at 91.44 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 88.9 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 27.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37a4f066-fe76-4c3f-b75b-9eb980817f30")
+		(property "Reference" "H3"
+			(at 91.44 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 33.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5ca4123-085d-46d5-8e7b-f3e4a4376dd0")
+		(property "Reference" "H4"
+			(at 91.44 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 22.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee397379-6b9b-4cb9-8ab1-60970aa5171d")
+		(property "Reference" "H2"
+			(at 91.44 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 88.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 66.04)
+		(size 17.78 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0060fddb-39a9-4c46-9ade-5767528dbd97")
+		(property "Sheetname" "FPGA IO-Bank 2"
+			(at 87.63 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_bank2.kicad_sch"
+			(at 87.63 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_FPGA_3V3" input
+			(at 105.41 67.31 0)
+			(uuid "b269f56f-d23b-4766-a346-92d677999590")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_1V0" input
+			(at 105.41 74.93 0)
+			(uuid "e3fa3fb7-be73-4a4e-8d3b-0617a7a3294f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_1V8" input
+			(at 105.41 71.12 0)
+			(uuid "1f0bb7f4-ddc5-40f9-a08f-d20aba4012e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 27.94)
+		(size 25.4 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b674874-298c-45a6-9504-56b9f0c3176d")
+		(property "Sheetname" "Board PWR"
+			(at 38.1 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board_pwr.kicad_sch"
+			(at 38.1 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_3V3" output
+			(at 63.5 30.48 0)
+			(uuid "650e0918-69ea-49c7-a7f2-9e4284584cce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_1V8" output
+			(at 63.5 33.02 0)
+			(uuid "06be43b6-2d2d-46d8-beec-372d8fa6013a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_1V" output
+			(at 63.5 35.56 0)
+			(uuid "e7d2cdc0-bf32-469b-9658-2b9b90e2d574")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_1V35" output
+			(at 63.5 44.45 0)
+			(uuid "27066e7c-007d-4495-a755-e323be20c050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_1V2" output
+			(at 63.5 41.91 0)
+			(uuid "1f9fa7bf-5d58-42c1-9d4a-86c0d262debb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR3_VREF" output
+			(at 63.5 46.99 0)
+			(uuid "bef8a45a-fd1d-4c07-b422-00cf4eaecbd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR3_VTT" output
+			(at 63.5 49.53 0)
+			(uuid "a07933d4-5ea5-4a75-bd0b-df70fe7fe295")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 66.04)
+		(size 17.78 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40f0463c-2b4a-44fa-8275-cce48a04b9f8")
+		(property "Sheetname" "FPGA IO-Bank 1"
+			(at 53.34 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_bank1.kicad_sch"
+			(at 53.34 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_FPGA_3V3" input
+			(at 71.12 68.58 0)
+			(uuid "f6919cdd-2e09-441b-b25d-1be9f62d6235")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 66.04)
+		(size 13.335 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ed6d611-49f6-4451-a4a8-ece34ad92379")
+		(property "Sheetname" "MCU"
+			(at 25.4 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 25.4 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 66.04)
+		(size 17.78 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "655e5a9d-8721-4c6c-8c01-040efc59c453")
+		(property "Sheetname" "Ethernet"
+			(at 152.4 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 152.4 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_1V2" input
+			(at 170.18 71.12 0)
+			(uuid "44f65323-2756-46a3-bb1e-971842f4ac7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_3V3" input
+			(at 170.18 73.66 0)
+			(uuid "99019a16-9b47-4f2e-9f09-73e57b116c33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 66.04)
+		(size 16.51 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da008037-361c-4488-8a6b-7127c84dbd4e")
+		(property "Sheetname" "DDR3 Interface"
+			(at 120.65 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr3.kicad_sch"
+			(at 120.65 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Feld2" ""
+			(at 120.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DDR3_VTT" input
+			(at 137.16 71.12 0)
+			(uuid "6b479d04-1420-4451-879e-5dbe5325c964")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR_VDD" input
+			(at 137.16 68.58 0)
+			(uuid "cff93372-8f0d-434c-9d4e-682a4ccef87b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR_VREF" input
+			(at 137.16 73.66 0)
+			(uuid "b19fc83e-e4b7-41a4-a8ac-aae35d0746a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "digital_board_v1"
+				(path "/5ab81275-8e87-4458-a12a-b80c278e5884"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "0")
+		)
+	)
+	(embedded_fonts no)
+)
