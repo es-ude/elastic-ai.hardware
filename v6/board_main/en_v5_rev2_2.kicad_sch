@@ -2527,6 +2527,16 @@
 		)
 		(uuid "66ed6123-2bec-47d7-8cf9-667621a4a568")
 	)
+	(text "Replace with BQ240xxx from TI"
+		(exclude_from_sim no)
+		(at 264.668 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71b3a10a-3ba7-4ce1-a6b8-742466710405")
+	)
 	(text "2.2uH"
 		(exclude_from_sim no)
 		(at 116.84 160.02 0)
