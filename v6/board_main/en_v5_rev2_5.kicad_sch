@@ -4273,6 +4273,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "FPGA_RESET ist zur Konfiguration\nund nicht zum Reset"
+		(exclude_from_sim no)
+		(at 102.616 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1dcb9459-42ba-412e-b5ad-7f37c3ad7b2f")
+	)
+	(text "SRAM ist nicht verwendet\n--> raus (wird bisher nicht verwendet)"
+		(exclude_from_sim no)
+		(at 264.668 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "244c0a65-34a0-45d7-b8bd-53b2d4df6725")
+	)
+	(text "FPGA nRST fehlt"
+		(exclude_from_sim no)
+		(at 197.612 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58c748b3-6eb7-401e-ada4-f461f0cc7126")
+	)
 	(text "(up side) VCC_30_34 -> SRAM"
 		(exclude_from_sim no)
 		(at 180.34 165.1 0)
@@ -4300,16 +4330,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d1a84a-0e9f-42ba-af0c-5b0a590a0a7f")
-	)
-	(wire
-		(pts
-			(xy 162.56 88.9) (xy 167.64 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "008f41be-34df-41ee-8635-0e333f848191")
 	)
 	(wire
 		(pts
@@ -4440,16 +4460,6 @@
 			(type solid)
 		)
 		(uuid "13044346-aa75-419c-bb82-049107fa968f")
-	)
-	(wire
-		(pts
-			(xy 167.64 45.72) (xy 162.56 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "13c1da74-02ea-449f-a207-d96af3f6525d")
 	)
 	(wire
 		(pts
@@ -6025,28 +6035,6 @@
 			)
 		)
 	)
-	(global_label "GCLK_100"
-		(shape bidirectional)
-		(at 167.64 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "58b73530-7fc2-467d-9283-adf6592d16a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.8997 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PIO20/GPIO2FPGA_3"
 		(shape bidirectional)
 		(at 167.64 149.86 0)
@@ -7094,28 +7082,6 @@
 		(uuid "c2a0bf61-5cfb-4050-b5e5-236ab60b3b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.7974 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GCLK_32"
-		(shape bidirectional)
-		(at 167.64 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "c3c59601-95e7-4033-9b35-e10f63a81fe1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.7144 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

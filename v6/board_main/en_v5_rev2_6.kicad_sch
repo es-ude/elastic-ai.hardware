@@ -3027,16 +3027,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 185.42) (xy 78.74 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0c33d8a2-e56c-4eca-adbf-d730e050940e")
-	)
-	(wire
-		(pts
 			(xy 144.78 53.34) (xy 139.7 53.34)
 		)
 		(stroke
@@ -3177,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.96 140.97) (xy 48.26 140.97)
+			(xy 52.69 144.78) (xy 46.99 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -3967,7 +3957,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.96 133.35) (xy 48.26 133.35)
+			(xy 52.69 135.89) (xy 46.99 135.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -4167,7 +4157,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.88 140.97) (xy 68.58 140.97)
+			(xy 61.61 144.78) (xy 67.31 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -4317,16 +4307,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 185.42) (xy 38.1 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7ca711af-65df-4230-9216-cc6efe30be49")
-	)
-	(wire
-		(pts
 			(xy 236.22 91.44) (xy 238.76 91.44)
 		)
 		(stroke
@@ -4424,16 +4404,6 @@
 			(type solid)
 		)
 		(uuid "85dff112-d6d6-446d-a9d9-2355599a9e18")
-	)
-	(wire
-		(pts
-			(xy 43.18 180.34) (xy 38.1 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8642552d-1448-4bdd-8930-08beeef431e2")
 	)
 	(wire
 		(pts
@@ -5377,7 +5347,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.88 125.73) (xy 68.58 125.73)
+			(xy 62.23 127) (xy 67.93 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -5557,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.96 125.73) (xy 48.26 125.73)
+			(xy 53.31 127) (xy 47.61 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -5654,16 +5624,6 @@
 			(type solid)
 		)
 		(uuid "ee7e2dc4-c243-4809-96c8-b2c099320140")
-	)
-	(wire
-		(pts
-			(xy 73.66 180.34) (xy 78.74 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f094f2bb-d78c-4aa9-82c8-b202f0dd5431")
 	)
 	(wire
 		(pts
@@ -5787,7 +5747,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.88 133.35) (xy 68.58 133.35)
+			(xy 61.61 135.89) (xy 67.31 135.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -5876,7 +5836,7 @@
 		(uuid "3f796dae-0645-4c65-810c-c54100697ac8")
 	)
 	(label "SPI2FLASH_DQ2"
-		(at 68.58 133.35 0)
+		(at 67.31 135.89 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5886,7 +5846,7 @@
 		(uuid "55e331b6-0f9f-4881-9bdd-9a3ede454341")
 	)
 	(label "SPI2FLASH_DQ3"
-		(at 68.58 140.97 0)
+		(at 67.31 144.78 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5917,7 +5877,7 @@
 	)
 	(global_label "PIO0/SPI2FLASH_MISO(SPI0)"
 		(shape bidirectional)
-		(at 68.58 125.73 0)
+		(at 67.93 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5927,7 +5887,7 @@
 		)
 		(uuid "04d72f73-bd4b-4da5-b006-a52bdefcc97f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3827 125.73 0)
+			(at 98.7327 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,28 +6557,6 @@
 			)
 		)
 	)
-	(global_label "VCC_30_14"
-		(shape bidirectional)
-		(at 78.74 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "55b2dae8-6c65-4907-a7eb-160b652d2558")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.948 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape bidirectional)
 		(at 114.3 185.42 180)
@@ -6775,44 +6713,44 @@
 	)
 	(global_label "FLASH_DQ3"
 		(shape bidirectional)
-		(at 48.26 140.97 0)
+		(at 46.99 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "61484836-f0f7-4301-9e7c-dfc448a90e09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5866 140.97 0)
+			(at 32.6634 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "FLASH_DQ2"
 		(shape bidirectional)
-		(at 48.26 133.35 0)
+		(at 46.99 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "63b73f03-5182-42cc-9c9f-0fbde7ddd920")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5866 133.35 0)
+			(at 32.6634 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6971,28 +6909,6 @@
 			)
 		)
 	)
-	(global_label "VCC_30_14"
-		(shape bidirectional)
-		(at 38.1 180.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "780af53c-ee6f-4881-9e35-199ded0c8d69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.892 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SRAM_D14"
 		(shape bidirectional)
 		(at 182.88 147.32 0)
@@ -7099,28 +7015,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 38.1 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "8c08d68a-d902-43d1-926e-ec2665d827f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.2927 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7435,22 +7329,22 @@
 	)
 	(global_label "FLASH_DQ0"
 		(shape bidirectional)
-		(at 48.26 118.11 0)
+		(at 48.26 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c074648b-57e3-4a0c-8619-e733c63156b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5866 118.11 0)
+			(at 33.9334 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7719,28 +7613,6 @@
 			)
 		)
 	)
-	(global_label "GCLK_32"
-		(shape bidirectional)
-		(at 78.74 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "d8b32309-8f75-4e20-8118-e62a88cce0fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.8144 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SRAM_WE"
 		(shape bidirectional)
 		(at 182.88 162.56 0)
@@ -7897,22 +7769,22 @@
 	)
 	(global_label "FLASH_DQ1"
 		(shape bidirectional)
-		(at 48.26 125.73 0)
+		(at 47.61 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ea37e750-a255-4808-ab79-f576e3dc5b18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5866 125.73 0)
+			(at 33.2834 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11104,7 +10976,7 @@
 	)
 	(symbol
 		(lib_id "env-eagle-import:RESISTORSMD_0402")
-		(at 58.42 125.73 0)
+		(at 57.77 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11112,7 +10984,7 @@
 		(dnp no)
 		(uuid "58871022-f1fa-4eb6-90c8-74300a5ce6e0")
 		(property "Reference" "R66"
-			(at 58.42 123.73 0)
+			(at 57.77 125 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11121,7 +10993,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 58.42 127.73 0)
+			(at 57.77 129 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11130,7 +11002,7 @@
 			)
 		)
 		(property "Footprint" "env:0402"
-			(at 58.42 125.73 0)
+			(at 57.77 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11139,7 +11011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 125.73 0)
+			(at 57.77 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11148,7 +11020,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 125.73 0)
+			(at 57.77 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +11029,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 58.42 125.73 0)
+			(at 57.77 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11167,7 +11039,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 58.42 125.73 0)
+			(at 57.77 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11177,7 +11049,7 @@
 			)
 		)
 		(property "OC_NEWARK" "unknown"
-			(at 58.42 125.73 0)
+			(at 57.77 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13272,111 +13144,6 @@
 		)
 	)
 	(symbol
-		(lib_id "env-eagle-import:OSCILLATOR3.2X2.5")
-		(at 58.42 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1361205-f3f9-4488-8e9b-57e79d844a52")
-		(property "Reference" "X2"
-			(at 58.42 182.96 0)
-			(effects
-				(font
-					(size 1.6764 1.4249)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "32MHz"
-			(at 58.42 189.88 0)
-			(effects
-				(font
-					(size 1.6764 1.4249)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "env:3.2X2.5_OSC"
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" "unknown"
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "949a1ac4-b553-4f8a-9553-a799aad6ebf9")
-		)
-		(pin "4"
-			(uuid "7619b3b2-a4c5-4116-8b17-ddf29ce5a683")
-		)
-		(pin "2"
-			(uuid "aaaaca6f-3ab2-4b96-a398-48cf9eeff3a5")
-		)
-		(pin "3"
-			(uuid "e7211c1b-5aff-4eba-bb2a-ddf356d78887")
-		)
-		(instances
-			(project ""
-				(path "/4c59d168-fd3a-43d1-bf01-995dc1715e36/dcef4b54-16e8-458a-890e-119d771f76a8"
-					(reference "X2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "env-eagle-import:CAPACITOR0402")
 		(at 198.12 48.26 90)
 		(unit 1)
@@ -13972,7 +13739,7 @@
 	)
 	(symbol
 		(lib_id "env-eagle-import:RESISTORSMD_0402")
-		(at 58.42 140.97 0)
+		(at 57.15 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13980,7 +13747,7 @@
 		(dnp no)
 		(uuid "c09ae502-3a24-4876-8de8-af9ff209c354")
 		(property "Reference" "R70"
-			(at 58.42 138.97 0)
+			(at 57.15 142.78 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13989,7 +13756,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 58.42 142.97 0)
+			(at 57.15 146.78 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13998,7 +13765,7 @@
 			)
 		)
 		(property "Footprint" "env:0402"
-			(at 58.42 140.97 0)
+			(at 57.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14007,7 +13774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 140.97 0)
+			(at 57.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14016,7 +13783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 140.97 0)
+			(at 57.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,7 +13792,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 58.42 140.97 0)
+			(at 57.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +13802,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 58.42 140.97 0)
+			(at 57.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14045,7 +13812,7 @@
 			)
 		)
 		(property "OC_NEWARK" "unknown"
-			(at 58.42 140.97 0)
+			(at 57.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +13937,7 @@
 	)
 	(symbol
 		(lib_id "env-eagle-import:RESISTORSMD_0402")
-		(at 58.42 133.35 0)
+		(at 57.15 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14178,7 +13945,7 @@
 		(dnp no)
 		(uuid "c5283709-e050-4085-8d9c-1957983369a2")
 		(property "Reference" "R68"
-			(at 58.42 131.35 0)
+			(at 57.15 133.89 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14187,7 +13954,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 58.42 135.35 0)
+			(at 57.15 137.89 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14196,7 +13963,7 @@
 			)
 		)
 		(property "Footprint" "env:0402"
-			(at 58.42 133.35 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14205,7 +13972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 133.35 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14214,7 +13981,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 133.35 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14223,7 +13990,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 58.42 133.35 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14233,7 +14000,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 58.42 133.35 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14243,7 +14010,7 @@
 			)
 		)
 		(property "OC_NEWARK" "unknown"
-			(at 58.42 133.35 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -10407,7 +10407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_library:BGA_FTGB196"
+		(property "Footprint" "env:FTGB196"
 			(at 0 0 0)
 			(effects
 				(font

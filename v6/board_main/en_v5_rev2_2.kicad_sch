@@ -2516,6 +2516,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Replace with BQ240xx who has the switches already internally"
+		(exclude_from_sim no)
+		(at 229.362 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29e967f3-e2f7-48b4-8bd4-c26a382182d0")
+	)
 	(text "3.3uH"
 		(exclude_from_sim no)
 		(at 116.84 132.08 0)
@@ -2526,16 +2536,6 @@
 			(justify left bottom)
 		)
 		(uuid "66ed6123-2bec-47d7-8cf9-667621a4a568")
-	)
-	(text "Replace with BQ240xxx from TI"
-		(exclude_from_sim no)
-		(at 264.668 88.646 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "71b3a10a-3ba7-4ce1-a6b8-742466710405")
 	)
 	(text "2.2uH"
 		(exclude_from_sim no)
@@ -2594,6 +2594,16 @@
 			)
 		)
 		(uuid "af530173-18e3-4cc4-a269-a471c04a07a7")
+	)
+	(text "Remove"
+		(exclude_from_sim no)
+		(at 49.53 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3332ea7-8ab0-42d0-a52b-79765062c745")
 	)
 	(text "Battery Charging Management"
 		(exclude_from_sim no)

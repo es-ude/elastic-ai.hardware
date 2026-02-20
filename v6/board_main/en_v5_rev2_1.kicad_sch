@@ -1341,6 +1341,16 @@
 		)
 		(uuid "5c8da35a-069a-4e32-bce7-71323b3abb4e")
 	)
+	(text "Replace connector with high density connector"
+		(exclude_from_sim no)
+		(at 143.764 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9c1a5b9-d28a-4370-bb3a-91397f863b17")
+	)
 	(junction
 		(at 190.5 139.7)
 		(diameter 0)

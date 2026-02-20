@@ -1206,6 +1206,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "New Sensing"
+		(exclude_from_sim no)
+		(at 58.674 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0ef47c16-8435-4272-9310-e4c37dda70ea")
+	)
 	(text "I2C Pullup Resistors"
 		(exclude_from_sim no)
 		(at 231.14 129.54 0)
@@ -1254,6 +1265,16 @@
 			)
 		)
 		(uuid "7cca9639-9f0c-4923-9500-532fc224287f")
+	)
+	(text "Replace with controlling via MCU"
+		(exclude_from_sim no)
+		(at 130.302 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86ba41a4-8593-4a1e-9dd7-572a464ebd42")
 	)
 	(text "Sample resistor: UCR03EVPFLR100\nThe PWDOWN and alert signal are hardly pulled-up to VCC, which means the hardware is set to SLOW mode.\n(To disable SLOW mode, you need to enable the alert pin in the software)\nThe 0R resistors(R27, R29) to alert can be installed depending on your application. Once it is installed, the ADC2 and ADC should not be used."
 		(exclude_from_sim no)
