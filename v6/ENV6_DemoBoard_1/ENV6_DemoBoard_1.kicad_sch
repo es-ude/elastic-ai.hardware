@@ -1,0 +1,320 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c353698e-fca1-4ed3-95bc-4f5142868012")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 171.45 35.56) (xy 179.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403f46cc-f975-4c69-a76e-105e8083ccb3")
+	)
+	(wire
+		(pts
+			(xy 63.5 33.02) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a63c6b1-c11f-4096-a247-ffc348334059")
+	)
+	(wire
+		(pts
+			(xy 171.45 40.64) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72dd05ca-bc10-4295-84fa-21f680adfd57")
+	)
+	(wire
+		(pts
+			(xy 171.45 38.1) (xy 179.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86437470-c53a-4410-9276-59ff9f41a0ee")
+	)
+	(wire
+		(pts
+			(xy 171.45 33.02) (xy 179.07 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872804ec-aa56-4e1a-9027-9010d839f61a")
+	)
+	(wire
+		(pts
+			(xy 171.45 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c757f530-6b03-41e0-a47f-f99d9a18dd38")
+	)
+	(label "1V1"
+		(at 179.07 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ef37737-0719-4d28-a542-3cf6a274da55")
+	)
+	(label "3V3"
+		(at 68.58 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bf4aa8d-78a9-4e3b-9935-2e2feb0d387c")
+	)
+	(label "3V3"
+		(at 179.07 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8037568a-6ad8-4dfd-a402-920324bfe843")
+	)
+	(label "3V3"
+		(at 179.07 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a23b729d-7915-4056-af52-0a9964545b04")
+	)
+	(label "0V8"
+		(at 179.07 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e091edcb-d4cf-4073-96e0-7a56461871c3")
+	)
+	(label "1V8"
+		(at 179.07 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9786b79-0e6c-4422-9de1-42696cedd502")
+	)
+	(sheet
+		(at 139.7 30.48)
+		(size 31.75 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "543f2454-ebb1-4255-972f-f49352e545fa")
+		(property "Sheetname" "Peripherals"
+			(at 139.7 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 139.7 57.0996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V4" output
+			(at 171.45 40.64 0)
+			(uuid "945e9881-d9d6-4066-8466-4a29fec45ae0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_MCU" input
+			(at 171.45 46.99 0)
+			(uuid "e08ca9eb-23b8-4ef6-b3d7-75d76ec1d0de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" output
+			(at 171.45 35.56 0)
+			(uuid "bd451669-a124-46c6-9146-925299be9a35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" output
+			(at 171.45 38.1 0)
+			(uuid "72f7e76d-802b-4ae3-bc68-f3140b62cfb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" output
+			(at 171.45 33.02 0)
+			(uuid "6c7cb532-f87c-4d67-a1ff-b7252a125abc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ENV6_DemoBoard_1"
+				(path "/c353698e-fca1-4ed3-95bc-4f5142868012"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 29.845)
+		(size 32.385 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "902366bc-6ca4-48af-8389-df3fa638596e")
+		(property "Sheetname" "Power"
+			(at 85.09 29.1334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 85.09 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ENV6_DemoBoard_1"
+				(path "/c353698e-fca1-4ed3-95bc-4f5142868012"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.115 29.845)
+		(size 32.385 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed3a85d8-235b-4bef-8433-9f631d48a830")
+		(property "Sheetname" "MCU"
+			(at 31.115 29.1334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 31.115 57.0996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_MCU" input
+			(at 63.5 33.02 0)
+			(uuid "5191874f-48c7-4262-af81-f0184425eada")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ENV6_DemoBoard_1"
+				(path "/c353698e-fca1-4ed3-95bc-4f5142868012"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
