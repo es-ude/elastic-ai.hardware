@@ -1254,6 +1254,16 @@
 		)
 		(uuid "42815e51-653e-4fca-bb2b-634b343cfb00")
 	)
+	(text "Adress = 0x11"
+		(exclude_from_sim no)
+		(at 72.136 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "728862cf-c636-4cc7-99b7-9ec2248bda9d")
+	)
 	(text "Power Control (ON/OFF)"
 		(exclude_from_sim no)
 		(at 93.98 129.54 0)
@@ -1288,6 +1298,16 @@
 			(justify left bottom)
 		)
 		(uuid "982dc5ff-eb27-4ef4-bc94-21b2e61faffa")
+	)
+	(text "Adress = 0x12"
+		(exclude_from_sim no)
+		(at 199.898 38.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba2cfbf0-bd81-4eca-8063-c72ecc661be6")
 	)
 	(junction
 		(at 121.92 55.88)
