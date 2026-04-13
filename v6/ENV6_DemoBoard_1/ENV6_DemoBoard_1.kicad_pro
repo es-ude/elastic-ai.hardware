@@ -615,16 +615,20 @@
       "Root"
     ],
     [
-      "ed3a85d8-235b-4bef-8433-9f631d48a830",
-      "MCU"
+      "543f2454-ebb1-4255-972f-f49352e545fa",
+      "Peripherals"
     ],
     [
       "902366bc-6ca4-48af-8389-df3fa638596e",
       "Power"
     ],
     [
-      "543f2454-ebb1-4255-972f-f49352e545fa",
-      "Peripherals"
+      "ed3a85d8-235b-4bef-8433-9f631d48a830",
+      "MCU"
+    ],
+    [
+      "a98a571e-c6ed-44bc-aada-f381df9153ba",
+      "Connector"
     ]
   ],
   "text_variables": {}
