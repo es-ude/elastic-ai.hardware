@@ -3114,9 +3114,9 @@
 		)
 		(uuid "1720bf1b-836b-438f-b664-adb7a6edf594")
 	)
-	(text "Can we use all pins also using I2C?\nIf yes, remove all\nAnd what happens with them if we do not use it?"
+	(text "Can we use all pins also using I2C?\nIf yes, remove all\nAnd what happens with them if we do not use it?\n\nEN_BUCKn in Registers can Enable BUCKn without EN1/2\nReset can be software commanded from Reg 0x16\n\nnRST Low = shutdown. nRST High = startup.\nPull up nRST.\n"
 		(exclude_from_sim no)
-		(at 65.786 182.88 0)
+		(at 62.23 196.342 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,9 +3146,9 @@
 		)
 		(uuid "4b16b74b-2583-42b8-9794-eb7891297d78")
 	)
-	(text "Can we use also the same with three channels?"
+	(text "Can we use also the same with three channels?\nonly 4 outputs availabe, \nto make it 3 needs to combine 2 outputs into 1"
 		(exclude_from_sim no)
-		(at 139.954 161.29 0)
+		(at 141.732 164.592 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3477,6 +3477,12 @@
 		(uuid "d75baa74-395f-41c3-b71d-3c439fef02c0")
 	)
 	(junction
+		(at 55.88 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76751b9-f609-4c9a-9fb3-4020c85cb775")
+	)
+	(junction
 		(at 138.43 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3557,10 +3563,6 @@
 	(no_connect
 		(at 68.58 184.15)
 		(uuid "89155498-b154-4c32-8f25-f2cae2defdfd")
-	)
-	(no_connect
-		(at 68.58 181.61)
-		(uuid "8d13f616-7518-4c1d-936a-ea7a6e62a2b2")
 	)
 	(no_connect
 		(at 58.42 49.53)
@@ -3972,6 +3974,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 165.1) (xy 34.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c9c72e-75e8-42fa-af1c-7b94db4c6e3d")
+	)
+	(wire
+		(pts
 			(xy 213.36 123.19) (xy 213.36 130.81)
 		)
 		(stroke
@@ -4252,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 181.61) (xy 34.29 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64edd1c5-22df-4790-a1c6-339752c76851")
+	)
+	(wire
+		(pts
 			(xy 240.03 138.43) (xy 240.03 139.7)
 		)
 		(stroke
@@ -4449,6 +4471,16 @@
 			(type default)
 		)
 		(uuid "80d65906-e07a-4fcf-af7d-3688ffe5a718")
+	)
+	(wire
+		(pts
+			(xy 68.58 181.61) (xy 34.29 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dd50cd-8b79-4765-a0fe-28c3f130c0b9")
 	)
 	(wire
 		(pts
@@ -4859,6 +4891,16 @@
 			(type default)
 		)
 		(uuid "b8ce8287-6ddd-4ac1-849c-23f504776ed2")
+	)
+	(wire
+		(pts
+			(xy 34.29 156.21) (xy 55.88 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba53d481-388f-40dc-b28f-3bd5aeab1b93")
 	)
 	(wire
 		(pts
@@ -9670,6 +9712,76 @@
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
 					(reference "J_BATT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:R0402")
+		(at 34.29 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3310997-34c1-4359-af51-4d246176c53b")
+		(property "Reference" "R37"
+			(at 36.83 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 36.83 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 32.512 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2e1db46-b193-4a61-a117-0dbf682005ec")
+		)
+		(pin "1"
+			(uuid "70a14291-46e0-4879-8e5d-45f93633e1c1")
+		)
+		(instances
+			(project "ENV6_DemoBoard_1"
+				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
+					(reference "R37")
 					(unit 1)
 				)
 			)

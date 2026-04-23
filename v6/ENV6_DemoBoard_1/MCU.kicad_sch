@@ -3830,7 +3830,7 @@
 	)
 	(text "FPGA \nProgramming"
 		(exclude_from_sim no)
-		(at 168.402 180.34 0)
+		(at 168.91 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3886,7 +3886,7 @@
 	)
 	(text "if not work, \nreplace with 100k"
 		(exclude_from_sim no)
-		(at 268.986 151.13 0)
+		(at 266.192 151.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3943,7 +3943,7 @@
 	)
 	(text "DirtyJTAG\nFor FPGA"
 		(exclude_from_sim no)
-		(at 160.528 145.288 0)
+		(at 160.528 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4597,7 +4597,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.29 185.42) (xy 162.56 185.42)
+			(xy 161.798 184.15) (xy 163.068 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5067,7 +5067,7 @@
 	)
 	(polyline
 		(pts
-			(xy 153.035 140.335) (xy 154.305 140.335)
+			(xy 153.035 137.16) (xy 154.305 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5267,7 +5267,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.925 175.26) (xy 162.56 175.26)
+			(xy 162.433 173.99) (xy 163.068 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5327,7 +5327,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.925 175.26) (xy 161.925 185.42)
+			(xy 162.433 173.99) (xy 162.433 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5847,7 +5847,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.29 175.26) (xy 162.56 175.26)
+			(xy 161.798 173.99) (xy 163.068 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6037,7 +6037,7 @@
 	)
 	(polyline
 		(pts
-			(xy 153.67 140.335) (xy 153.67 149.86)
+			(xy 153.67 137.16) (xy 153.67 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6795,7 +6795,7 @@
 			)
 		)
 	)
-	(global_label "MCU-FPGA"
+	(global_label "MCU16-FPGA"
 		(shape bidirectional)
 		(at 137.16 96.52 0)
 		(fields_autoplaced yes)
@@ -6807,7 +6807,7 @@
 		)
 		(uuid "1a1e6369-94ee-4642-a2e5-2ba77f9e129b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.598 96.52 0)
+			(at 154.017 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7015,7 @@
 			)
 		)
 	)
-	(global_label "MCU-FPGA"
+	(global_label "MCU18-FPGA"
 		(shape bidirectional)
 		(at 137.16 101.6 0)
 		(fields_autoplaced yes)
@@ -7027,7 +7027,7 @@
 		)
 		(uuid "80237f4a-cb80-4ce4-8f7b-39fafe5b8919")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.598 101.6 0)
+			(at 154.017 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7169,7 @@
 			)
 		)
 	)
-	(global_label "MCU-FPGA"
+	(global_label "MCU19-FPGA"
 		(shape bidirectional)
 		(at 137.16 104.14 0)
 		(fields_autoplaced yes)
@@ -7181,7 +7181,7 @@
 		)
 		(uuid "8b807776-3d4a-4b0a-9127-6b05295c2eb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.598 104.14 0)
+			(at 154.017 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7235,7 @@
 			)
 		)
 	)
-	(global_label "MCU-FPGA"
+	(global_label "MCU20-FPGA"
 		(shape bidirectional)
 		(at 137.16 106.68 0)
 		(fields_autoplaced yes)
@@ -7247,7 +7247,7 @@
 		)
 		(uuid "a5e3f470-8e7e-4c8e-8f54-068003d4b658")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.598 106.68 0)
+			(at 154.017 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7279,7 @@
 			)
 		)
 	)
-	(global_label "MCU-FPGA"
+	(global_label "MCU17-FPGA"
 		(shape bidirectional)
 		(at 137.16 99.06 0)
 		(fields_autoplaced yes)
@@ -7291,7 +7291,7 @@
 		)
 		(uuid "bd1c3e00-1aab-4d41-b041-0fcc3bab22ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.598 99.06 0)
+			(at 154.017 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
