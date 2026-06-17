@@ -1,0 +1,300 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c7d8d43d-63a2-4580-87e3-23da67ff2129")
+	(paper "A4")
+	(lib_symbols)
+	(text "V Outputs from MCU"
+		(exclude_from_sim no)
+		(at 59.182 36.322 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8b1ba3a-0daa-4225-9d7a-7e3be570781d")
+	)
+	(no_connect
+		(at 71.12 40.64)
+		(uuid "bdd29e35-1434-4952-a813-3213ecb55d5b")
+	)
+	(no_connect
+		(at 71.12 36.83)
+		(uuid "eca4b385-7627-4b0e-b154-e07d1fc3d4ea")
+	)
+	(wire
+		(pts
+			(xy 64.77 29.21) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200fc172-7b69-4072-9166-cedab86aede8")
+	)
+	(wire
+		(pts
+			(xy 64.77 36.83) (xy 71.12 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2d62ac-5604-42fc-8958-03cfc5186aab")
+	)
+	(wire
+		(pts
+			(xy 64.77 33.02) (xy 71.12 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4f134c-ce36-40a0-bbdd-89be19c85a74")
+	)
+	(wire
+		(pts
+			(xy 64.77 40.64) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a2257b-bb8c-4ddc-88eb-3986077c4d2f")
+	)
+	(label "2V5"
+		(at 71.12 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30429b9e-681b-49f5-8e79-b2f2caa4069d")
+	)
+	(label "1V0"
+		(at 71.12 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ae2ec34-52b0-4c80-b261-f476cdb7a363")
+	)
+	(sheet
+		(at 81.28 25.4)
+		(size 39.37 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7eafa692-194c-419c-a07a-1b9770d0663f")
+		(property "Sheetname" "FPGA_Config"
+			(at 81.28 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Config.kicad_sch"
+			(at 81.28 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGABoard_GateMate_1"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 86.36)
+		(size 49.53 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548")
+		(property "Sheetname" "FPGA_Power"
+			(at 97.79 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Power.kicad_sch"
+			(at 97.79 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGABoard_GateMate_1"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 86.36)
+		(size 43.18 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2acf127-4018-4eed-b057-fb0392b768f0")
+		(property "Sheetname" "FPGA_IO_Banks"
+			(at 44.45 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_IO_Banks.kicad_sch"
+			(at 44.45 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGABoard_GateMate_1"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 39.37 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfae07b0-50c4-48a4-ab13-3d1143cdfa18")
+		(property "Sheetname" "Connectors"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 25.4 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V1" input
+			(at 64.77 29.21 0)
+			(uuid "507b4901-2ee7-4999-b50a-77fee043817a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V4" input
+			(at 64.77 40.64 0)
+			(uuid "c6f83125-2ca3-4f69-9811-5de631608fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" input
+			(at 64.77 33.02 0)
+			(uuid "911c6f9e-3b41-42c3-8972-16e94005b9e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V3" input
+			(at 64.77 36.83 0)
+			(uuid "8e0ead43-59af-4e8d-8eec-8e434c4597c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FPGABoard_GateMate_1"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
