@@ -1,10 +1,20 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "c7d8d43d-63a2-4580-87e3-23da67ff2129")
 	(paper "A4")
 	(lib_symbols)
+	(text "General: Add testpads for specific signals which will not be moved to other boards"
+		(exclude_from_sim no)
+		(at 179.578 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "706f5adb-7c81-464d-a081-4f5cb6383079")
+	)
 	(text "V Outputs from MCU"
 		(exclude_from_sim no)
 		(at 59.182 36.322 90)
@@ -96,11 +106,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7eafa692-194c-419c-a07a-1b9770d0663f")
 		(property "Sheetname" "FPGA_Config"
 			(at 81.28 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110,6 +122,8 @@
 		)
 		(property "Sheetfile" "FPGA_Config.kicad_sch"
 			(at 81.28 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,11 +152,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548")
 		(property "Sheetname" "FPGA_Power"
 			(at 97.79 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,6 +168,8 @@
 		)
 		(property "Sheetfile" "FPGA_Power.kicad_sch"
 			(at 97.79 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,11 +198,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d2acf127-4018-4eed-b057-fb0392b768f0")
 		(property "Sheetname" "FPGA_IO_Banks"
 			(at 44.45 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,6 +214,8 @@
 		)
 		(property "Sheetfile" "FPGA_IO_Banks.kicad_sch"
 			(at 44.45 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,11 +244,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "dfae07b0-50c4-48a4-ab13-3d1143cdfa18")
 		(property "Sheetname" "Connectors"
 			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,6 +260,8 @@
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
 			(at 25.4 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
