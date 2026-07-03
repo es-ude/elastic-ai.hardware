@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "740808df-d6d2-418c-af2c-1f99a600b66c")
 	(paper "A4")
+	(title_block
+		(title "elasticAI.hardware (ENV6.mini)")
+		(date "2026-07-03")
+		(rev "1v1")
+		(company "UDE-IES")
+	)
 	(lib_symbols
 		(symbol "connectors:PMOD_FEMALE"
 			(exclude_from_sim yes)
@@ -5588,7 +5594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 248.92 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 209.55 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 266.7 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,94 +6727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "passive:C0402")
-		(at 194.31 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80095acd-3be9-45c8-a513-e12a95b62901")
-		(property "Reference" "C12"
-			(at 198.12 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 198.12 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 195.2752 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 194.31 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26133565-1dda-44df-8357-aa9de2dc3587")
-		)
-		(pin "2"
-			(uuid "a03d576a-8610-455d-9480-af88e41c253c")
-		)
-		(instances
-			(project "mini"
-				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/7b1405f2-b11d-4a7e-9ddf-9f97b84483e2"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-			(project "stim_platform"
-				(path "/f29f7d6f-2c6e-471f-bb52-1b8a168ace2f/4ff046b9-f5cc-46e0-9aab-5f3ebcdb09bf"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "passive:R0402")
 		(at 255.27 66.04 0)
 		(unit 1)
@@ -6831,7 +6749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 257.81 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,6 +8265,88 @@
 		)
 	)
 	(symbol
+		(lib_id "passive:C0402")
+		(at 194.31 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3ce27db-75b9-4d14-96de-07ab9ec4b8ed")
+		(property "Reference" "C12"
+			(at 198.12 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 198.12 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 195.2752 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22ebf326-d21c-4e25-9060-561b9f25e147")
+		)
+		(pin "2"
+			(uuid "146babe4-23cf-4a0d-b0be-4e8bfbf37896")
+		)
+		(instances
+			(project "mini"
+				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/7b1405f2-b11d-4a7e-9ddf-9f97b84483e2"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fpga:ICE40UP5K-SG48ITR50")
 		(at 107.95 102.87 0)
 		(unit 1)
@@ -8744,7 +8744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 200.66 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
