@@ -11,6 +11,17 @@
 		(company "UDE-IES")
 	)
 	(lib_symbols)
+	(text "Changes to 1v0:\n- fix: Wrong package size for PAC1954 (right: VQFN-16_3x3mm)\n- fix: Right package for shunt resistors (1R, 1W, 0603)\n- feat: Update power devices (cheaper)\n- feat: Add fourth channel for power sensing for sensor unit"
+		(exclude_from_sim no)
+		(at 177.546 165.1 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "83fe7ddb-dd99-41b2-b2df-eba23abbf90b")
+	)
 	(sheet
 		(at 40.64 45.72)
 		(size 12.7 3.81)

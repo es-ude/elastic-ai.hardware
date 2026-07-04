@@ -1740,6 +1740,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCCQ"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCCQ"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCCQ\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCCQ_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCCQ_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power global)
 			(pin_numbers
@@ -2390,6 +2529,12 @@
 		(uuid "1289e479-2861-4ae1-8c7d-c00a183ddf8e")
 	)
 	(junction
+		(at 44.45 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2257d2fa-ebd4-44e0-8846-8b28ab1333cd")
+	)
+	(junction
 		(at 180.34 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2444,6 +2589,12 @@
 		(uuid "816ead0f-bd8e-41ac-8649-5cbe51219541")
 	)
 	(junction
+		(at 55.88 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4bdf16-20a4-4b7f-add4-608f88daaca0")
+	)
+	(junction
 		(at 41.91 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2490,14 +2641,6 @@
 	(no_connect
 		(at 92.71 151.13)
 		(uuid "2bc64b27-106e-4539-aad9-4163bd741c5f")
-	)
-	(no_connect
-		(at 67.31 132.08)
-		(uuid "4f32a50c-a6c4-4027-ac0c-721ddabe7a19")
-	)
-	(no_connect
-		(at 67.31 134.62)
-		(uuid "611983b9-3654-42d8-8d6a-69b30849cb6a")
 	)
 	(wire
 		(pts
@@ -2701,6 +2844,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 132.08) (xy 55.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33560afe-178f-42df-b457-5769ae67c3ee")
+	)
+	(wire
+		(pts
 			(xy 52.07 158.75) (xy 67.31 158.75)
 		)
 		(stroke
@@ -2848,6 +3001,16 @@
 			(type default)
 		)
 		(uuid "4ee59305-b947-4b96-b9a7-2acf8fb0e03f")
+	)
+	(wire
+		(pts
+			(xy 55.88 130.81) (xy 55.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5364a926-16d6-426c-bf5c-4b5f9201573c")
 	)
 	(wire
 		(pts
@@ -3041,6 +3204,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 132.08) (xy 67.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62c94ba-f1d3-44bf-adfb-456cd01eea34")
+	)
+	(wire
+		(pts
 			(xy 176.53 74.93) (xy 176.53 78.74)
 		)
 		(stroke
@@ -3058,6 +3231,16 @@
 			(type default)
 		)
 		(uuid "af7db6c6-bfda-413b-9b77-e329823e3e47")
+	)
+	(wire
+		(pts
+			(xy 40.64 134.62) (xy 44.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36eafc6-2a66-4374-a0f2-aca0f2a414c2")
 	)
 	(wire
 		(pts
@@ -3241,6 +3424,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 134.62) (xy 44.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8a6b18-fb8b-41eb-8874-2ef620f12a33")
+	)
+	(wire
+		(pts
 			(xy 196.85 72.39) (xy 217.17 72.39)
 		)
 		(stroke
@@ -3258,6 +3451,16 @@
 			(type default)
 		)
 		(uuid "f36bfd9b-eb60-4197-8a86-9a397fd8878a")
+	)
+	(wire
+		(pts
+			(xy 44.45 134.62) (xy 67.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f9085c-1ec3-4d93-b264-ce40f7201826")
 	)
 	(wire
 		(pts
@@ -4278,6 +4481,86 @@
 			(project "mini"
 				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/cfce4952-8973-4417-93ad-c631a1c587c4"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:R0402")
+		(at 48.26 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a9f2005-3215-4ca4-8bab-a2e45b830327")
+		(property "Reference" "R12"
+			(at 48.26 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1R"
+			(at 48.26 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 133.858 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3480427-57d1-4df4-9747-2ac5c2a94f01")
+		)
+		(pin "1"
+			(uuid "89edc333-a282-413d-82a2-5dd81a2b2b2b")
+		)
+		(instances
+			(project "mini"
+				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/cfce4952-8973-4417-93ad-c631a1c587c4"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6387,6 +6670,163 @@
 			(project "mini"
 				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/cfce4952-8973-4417-93ad-c631a1c587c4"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 55.88 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb21420b-2c7a-4e07-a38e-41ff3c02adb2")
+		(property "Reference" "#PWR011"
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 55.88 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 55.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61d73254-fb8c-49d9-93ec-c8a900292d84")
+		)
+		(instances
+			(project "mini"
+				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/cfce4952-8973-4417-93ad-c631a1c587c4"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCCQ")
+		(at 40.64 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5f16e07-81a7-4478-82a4-2478ffa9cfb7")
+		(property "Reference" "#PWR049"
+			(at 44.45 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCCQ"
+			(at 36.83 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
+			(at 40.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76422816-cb65-4d37-8761-df07a44d1228")
+		)
+		(instances
+			(project "mini"
+				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/cfce4952-8973-4417-93ad-c631a1c587c4"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
