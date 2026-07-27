@@ -3188,6 +3188,10 @@
 		(uuid "022efc1f-66c3-453e-8f00-e60469a28937")
 	)
 	(no_connect
+		(at 80.01 100.33)
+		(uuid "1c6d834d-ceb3-4c4c-95d2-55944a711935")
+	)
+	(no_connect
 		(at 80.01 90.17)
 		(uuid "476d7f99-6a07-4aaa-a087-3daf6945f3db")
 	)
@@ -3196,16 +3200,8 @@
 		(uuid "4e6bde00-51b4-4758-a6c6-933b8510e4c1")
 	)
 	(no_connect
-		(at 80.01 87.63)
-		(uuid "4fd9bc26-7572-4628-bdbd-66a7d43b1c24")
-	)
-	(no_connect
 		(at 80.01 138.43)
 		(uuid "6f0b6e5c-c5bd-4412-ad33-2b3b52db74d6")
-	)
-	(no_connect
-		(at 80.01 85.09)
-		(uuid "7292ad7c-0408-4f3b-929c-f4e81325f70a")
 	)
 	(no_connect
 		(at 80.01 125.73)
@@ -3228,6 +3224,10 @@
 		(uuid "c68b7f18-b597-4091-9b27-b9dd524c926e")
 	)
 	(no_connect
+		(at 80.01 102.87)
+		(uuid "cb886b38-d95d-4d84-bcb4-f68d4964e493")
+	)
+	(no_connect
 		(at 80.01 80.01)
 		(uuid "cc8ae7c2-e9d9-4fbf-8944-3fb73f19c028")
 	)
@@ -3239,10 +3239,6 @@
 		(at 80.01 135.89)
 		(uuid "f1e65598-8731-4325-a8b4-8b2c227a5f61")
 	)
-	(no_connect
-		(at 80.01 77.47)
-		(uuid "fe1c4839-03d5-405c-bb5d-cfe36fb2916f")
-	)
 	(wire
 		(pts
 			(xy 29.21 57.15) (xy 26.67 57.15)
@@ -3252,16 +3248,6 @@
 			(type default)
 		)
 		(uuid "003c21a0-bf6b-435d-9369-5f5f1a751cb3")
-	)
-	(wire
-		(pts
-			(xy 67.31 100.33) (xy 80.01 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07b5caf4-18fd-4fde-8e89-3ab7f751232b")
 	)
 	(wire
 		(pts
@@ -3365,16 +3351,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 102.87) (xy 80.01 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "222777ca-d133-4f83-8a9c-79b47c259a46")
-	)
-	(wire
-		(pts
 			(xy 68.58 118.11) (xy 80.01 118.11)
 		)
 		(stroke
@@ -3412,6 +3388,16 @@
 			(type default)
 		)
 		(uuid "264606a0-735e-4208-bdda-e916b284d904")
+	)
+	(wire
+		(pts
+			(xy 78.74 85.09) (xy 80.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b102a79-d325-4732-bd96-5b3e0b59c4fc")
 	)
 	(wire
 		(pts
@@ -3472,6 +3458,16 @@
 			(type default)
 		)
 		(uuid "3a9c873b-bb81-4e95-894f-57cf28447241")
+	)
+	(wire
+		(pts
+			(xy 78.74 87.63) (xy 80.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c262f15-1d3b-476f-a7d0-bfde333c995a")
 	)
 	(wire
 		(pts
@@ -3742,6 +3738,16 @@
 			(type default)
 		)
 		(uuid "7b8dff5f-5c2b-4551-8230-6363b3142de3")
+	)
+	(wire
+		(pts
+			(xy 77.47 77.47) (xy 80.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea231c7-a678-4428-882d-64f196ea0d14")
 	)
 	(wire
 		(pts
@@ -5238,9 +5244,9 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
-		(shape bidirectional)
-		(at 67.31 100.33 180)
+	(global_label "I2C_FPGA_SCL"
+		(shape output)
+		(at 77.47 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5248,9 +5254,9 @@
 			)
 			(justify right)
 		)
-		(uuid "16f72f32-2365-4953-8196-f3f16b0c35ef")
+		(uuid "0f109451-fd38-45bb-9fe9-8b7b13cd09ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.654 100.33 0)
+			(at 61.2405 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5283,30 +5289,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "I2C_SDA"
-		(shape bidirectional)
-		(at 67.31 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d42fa21-daee-4c93-9d8c-de6e9aa29b1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.5935 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5526,6 +5508,30 @@
 			)
 		)
 	)
+	(global_label "I2C_FPGA_SDA"
+		(shape bidirectional)
+		(at 78.74 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be4214ef-56f1-4fb3-9ff7-d16a60503388")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.3387 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FPGA_FLASH_SI"
 		(shape input)
 		(at 152.4 129.54 270)
@@ -5587,6 +5593,30 @@
 		(uuid "d5e88a02-ff5e-4342-90af-9cd1fbbc04f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 246.38 88.9824 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_GPIO2"
+		(shape bidirectional)
+		(at 78.74 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd6fe043-ff83-4f60-a838-60d21f0e2589")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.2739 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

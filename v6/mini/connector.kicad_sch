@@ -2523,12 +2523,6 @@
 		(uuid "e54901c5-71da-482a-a42c-d65b0c61ff14")
 	)
 	(junction
-		(at 114.3 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1289e479-2861-4ae1-8c7d-c00a183ddf8e")
-	)
-	(junction
 		(at 44.45 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2884,16 +2878,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 143.51) (xy 114.3 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b5cce88-5c37-4db6-93bb-d01c087f3cd9")
-	)
-	(wire
-		(pts
 			(xy 217.17 137.16) (xy 217.17 140.97)
 		)
 		(stroke
@@ -2911,16 +2895,6 @@
 			(type default)
 		)
 		(uuid "3deb24cf-f8f5-4a9e-ba04-6c71f578ffcc")
-	)
-	(wire
-		(pts
-			(xy 92.71 146.05) (xy 114.3 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e046113-2fb9-4530-a6ea-0f8c5522ec95")
 	)
 	(wire
 		(pts
@@ -3074,6 +3048,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 146.05) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741feccb-9db6-4d38-9d40-a7f06fa08120")
+	)
+	(wire
+		(pts
 			(xy 44.45 152.4) (xy 67.31 152.4)
 		)
 		(stroke
@@ -3144,16 +3128,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 132.08) (xy 114.3 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eec9ec2-232c-44ec-9d5f-41a7f3085219")
-	)
-	(wire
-		(pts
 			(xy 41.91 142.24) (xy 41.91 143.51)
 		)
 		(stroke
@@ -3174,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 132.08) (xy 114.3 132.08)
+			(xy 92.71 132.08) (xy 125.73 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3321,16 +3295,6 @@
 			(type default)
 		)
 		(uuid "c7b1a044-0e03-47da-a02b-8251f4e5a3fe")
-	)
-	(wire
-		(pts
-			(xy 114.3 132.08) (xy 125.73 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95c01ff-ae40-4c08-8690-3f39646ea87d")
 	)
 	(wire
 		(pts
@@ -3699,6 +3663,30 @@
 		(uuid "dca4d0ad-56be-4e47-8d22-4ffd279fb72d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.8528 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "EN_PAC"
+		(shape input)
+		(at 93.98 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3455ffa-58b1-445e-aae5-70f6c7313599")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.0409 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4239,88 +4227,6 @@
 			(project "mini"
 				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/cfce4952-8973-4417-93ad-c631a1c587c4"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:R0402")
-		(at 114.3 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54b44e69-ee95-4e4f-918c-d2ea9eb5f0a4")
-		(property "Reference" "R11"
-			(at 116.84 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 116.84 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 112.522 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "600e4135-4af3-4870-ba97-b9343ce2f0d5")
-		)
-		(pin "1"
-			(uuid "e54d6d21-698c-4cd0-be73-0d10f87b7d08")
-		)
-		(instances
-			(project "mini"
-				(path "/cad3e569-714f-4d3a-be70-27b5cd29ede2/cfce4952-8973-4417-93ad-c631a1c587c4"
-					(reference "R11")
 					(unit 1)
 				)
 			)
