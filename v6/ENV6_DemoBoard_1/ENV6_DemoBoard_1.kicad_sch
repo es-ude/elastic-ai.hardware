@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "c353698e-fca1-4ed3-95bc-4f5142868012")
 	(paper "A4")
 	(lib_symbols)
@@ -15,7 +15,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 68ba662e-0687-4495-bdfc-37f247fb98cb)
+		(uuid "68ba662e-0687-4495-bdfc-37f247fb98cb")
 	)
 	(rectangle
 		(start 132.08 106.68)
@@ -27,7 +27,7 @@
 		(fill
 			(type none)
 		)
-		(uuid fa8d76dc-0591-4292-a58e-33fb87048e2a)
+		(uuid "fa8d76dc-0591-4292-a58e-33fb87048e2a")
 	)
 	(text "Extension Board"
 		(exclude_from_sim no)
@@ -2489,6 +2489,7 @@
 		)
 		(column_widths 6.35 16.51)
 		(row_heights 2.54 2.54 2.54 2.54)
+		(uuid "cb6d9ac4-ec71-47d3-8c2d-e74a7a622d8f")
 		(cells
 			(table_cell "v1 "
 				(exclude_from_sim no)
@@ -2721,11 +2722,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "543f2454-ebb1-4255-972f-f49352e545fa")
 		(property "Sheetname" "Peripherals"
 			(at 24.13 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,6 +2738,8 @@
 		)
 		(property "Sheetfile" "Peripherals.kicad_sch"
 			(at 24.13 55.8296 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,39 +2747,39 @@
 				(justify left top)
 			)
 		)
-		(pin "V4" output
-			(at 55.88 39.37 0)
-			(uuid "945e9881-d9d6-4066-8466-4a29fec45ae0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V2" output
-			(at 55.88 34.29 0)
-			(uuid "bd451669-a124-46c6-9146-925299be9a35")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V3" output
-			(at 55.88 36.83 0)
-			(uuid "72f7e76d-802b-4ae3-bc68-f3140b62cfb3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V1" output
+		(pin "PSU1" output
 			(at 55.88 31.75 0)
-			(uuid "6c7cb532-f87c-4d67-a1ff-b7252a125abc")
+			(uuid "db643702-3ce4-458b-b4da-e2456ca0f667")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PSU2" output
+			(at 55.88 34.29 0)
+			(uuid "f348f27c-85a7-453a-bdf8-04383b71e02c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PSU3" output
+			(at 55.88 36.83 0)
+			(uuid "d038a69a-172f-4d10-8dd1-73aee8bcd44e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PSU4" output
+			(at 55.88 39.37 0)
+			(uuid "8899bc9a-b6b3-443a-a821-caf8624f787a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,11 +2808,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "902366bc-6ca4-48af-8389-df3fa638596e")
 		(property "Sheetname" "Power"
 			(at 67.945 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,6 +2824,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 67.945 55.8296 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,11 +2854,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a98a571e-c6ed-44bc-aada-f381df9153ba")
 		(property "Sheetname" "Connector"
 			(at 150.495 29.1334 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,6 +2870,8 @@
 		)
 		(property "Sheetfile" "connector.kicad_sch"
 			(at 150.495 55.8296 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,9 +2879,9 @@
 				(justify left top)
 			)
 		)
-		(pin "V1" input
+		(pin "PSU1" input
 			(at 184.15 33.02 0)
-			(uuid "d3906d58-4149-409b-9292-796e74dafcc5")
+			(uuid "3a35d207-b55a-4d4a-ba8d-af57c0b05b6a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,9 +2889,9 @@
 				(justify right)
 			)
 		)
-		(pin "V2" input
+		(pin "PSU2" input
 			(at 184.15 35.56 0)
-			(uuid "3540c73d-d98b-4b11-bd3b-a97f85316a6b")
+			(uuid "1da99fd8-246f-42dd-b506-e851d5512c6f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,9 +2899,9 @@
 				(justify right)
 			)
 		)
-		(pin "V3" input
+		(pin "PSU3" input
 			(at 184.15 38.1 0)
-			(uuid "a347a188-a3ea-4540-9b2b-0c25a97534f9")
+			(uuid "64312615-ab0e-4654-8f68-247288d92098")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,9 +2909,9 @@
 				(justify right)
 			)
 		)
-		(pin "V4" input
+		(pin "PSU4" input
 			(at 184.15 40.64 0)
-			(uuid "75037f2b-4f03-431e-8e04-dfe395707968")
+			(uuid "83a1887a-80ce-4f16-abf8-d9c068088652")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,11 +2940,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ed3a85d8-235b-4bef-8433-9f631d48a830")
 		(property "Sheetname" "MCU"
 			(at 109.22 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,6 +2956,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 109.22 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
