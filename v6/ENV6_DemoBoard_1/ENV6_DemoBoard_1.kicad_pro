@@ -697,7 +697,7 @@
         "uuid": "c353698e-fca1-4ed3-95bc-4f5142868012"
       }
     ],
-    "used_designators": "R305-306,IC9-10,IC301,L301-302,L305-306,#PWR40,#PWR52-63,#PWR301-307,#PWR415-417,C308-322,C325-337,TP302,U302,NT301,NT401",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

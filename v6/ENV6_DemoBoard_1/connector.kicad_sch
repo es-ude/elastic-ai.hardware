@@ -1672,6 +1672,16 @@
 		)
 		(uuid "1c87fc78-e23f-4445-9201-9f89009ac59b")
 	)
+	(text "Questions:\n- Which function has FPGA_RST? Logic RST or Config-RST?\n- Where can I readout which FPGA is connected?\n- Clock is placed on the other board, right?\n--> Maybe make a list / sheet with the function of each pin"
+		(exclude_from_sim no)
+		(at 124.46 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "220407a9-a7e2-407b-9f15-8b189189baa7")
+	)
 	(text "FPGA to\nApplication \nBoard"
 		(exclude_from_sim no)
 		(at 143.002 152.146 0)
@@ -1681,16 +1691,6 @@
 			)
 		)
 		(uuid "46b9392d-bcb3-450c-8fd7-37b4dd3f4cd8")
-	)
-	(text "Add these pins to the FPGA board"
-		(exclude_from_sim no)
-		(at 75.184 195.834 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4ce0c9f9-f30d-45ed-a2d7-bb5960fd2e19")
 	)
 	(text "Top View"
 		(exclude_from_sim no)

@@ -1357,13 +1357,14 @@
 		)
 		(uuid "3fcd423d-7799-43d4-9225-4bcc87c202ff")
 	)
-	(text "find a link to buy sense resistors \n(0.1% accuracy, high power budget)"
+	(text "For shunt resistors:\nuse 0.1%, 1W"
 		(exclude_from_sim no)
-		(at 32.512 81.534 0)
+		(at 36.83 24.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "4f3fc1a7-fa28-402c-90fe-387aeaac8294")
 	)
@@ -1420,17 +1421,6 @@
 			(justify left bottom)
 		)
 		(uuid "a537744d-4901-46b5-8f92-79f1a1e60843")
-	)
-	(text "Sensing PAC #3(FPGA board)\n- FPGA core (1V8)\n- FPGA core (1V1)\n- FPGA peripherie (3V3)\n- FPGA IO-banks + flash (3V3)\nAcutally it is doubled, maybe remove it?"
-		(exclude_from_sim no)
-		(at 192.278 105.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b3f6cc0e-0958-4bee-98c8-04c0cafcc44a")
 	)
 	(text "PAC1954 (3)"
 		(exclude_from_sim no)
@@ -1915,16 +1905,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 115.57) (xy 22.86 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18056973-16e4-43bb-ba2c-23c08fa26e7a")
-	)
-	(wire
-		(pts
 			(xy 34.29 176.53) (xy 35.56 176.53)
 		)
 		(stroke
@@ -1942,16 +1922,6 @@
 			(type default)
 		)
 		(uuid "1bf20b3d-1876-4803-bec6-ef107d514373")
-	)
-	(wire
-		(pts
-			(xy 22.86 106.68) (xy 22.86 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d5138af-2c24-479c-8abf-c883a3f2c563")
 	)
 	(wire
 		(pts
@@ -2612,16 +2582,6 @@
 			(type default)
 		)
 		(uuid "8f28a180-7889-4731-8967-3f91e0671081")
-	)
-	(wire
-		(pts
-			(xy 22.86 133.35) (xy 22.86 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f845f66-d8bd-482d-be64-190a30f57e7e")
 	)
 	(wire
 		(pts
@@ -3535,16 +3495,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 124.46) (xy 22.86 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f47c37f1-d490-4a14-b72f-3c48fc79e16e")
-	)
-	(wire
-		(pts
 			(xy 114.3 44.45) (xy 114.3 43.18)
 		)
 		(stroke
@@ -4351,7 +4301,7 @@
 	)
 	(hierarchical_label "PSU1"
 		(shape output)
-		(at 22.86 124.46 180)
+		(at 22.86 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4362,7 +4312,7 @@
 	)
 	(hierarchical_label "PSU3"
 		(shape output)
-		(at 22.86 115.57 180)
+		(at 22.86 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4373,7 +4323,7 @@
 	)
 	(hierarchical_label "PSU4"
 		(shape output)
-		(at 22.86 106.68 180)
+		(at 22.86 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4384,7 +4334,7 @@
 	)
 	(hierarchical_label "PSU2"
 		(shape output)
-		(at 22.86 133.35 180)
+		(at 22.86 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4773,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 27.94 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 28.956 183.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5345,7 +5295,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 27.94 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5750,7 +5700,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 27.94 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +6111,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 30.48 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6358,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 30.48 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6906,7 +6856,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 30.48 58.674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7159,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 30.48 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7264,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 27.94 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7343,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 30.226 165.354 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +7705,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 30.226 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8160,7 +8110,7 @@
 				)
 			)
 		)
-		(property "Value" "0R82"
+		(property "Value" "1R"
 			(at 30.226 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)

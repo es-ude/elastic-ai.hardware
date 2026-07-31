@@ -4398,17 +4398,6 @@
 		)
 		(uuid "df3125d4-da9d-445b-b64c-ecf1a930ecc3")
 	)
-	(text "Infos for FPGA board\n- Adding Testpads to all these signals on the FPGA board\n- Add ADC for identifying which FPGA board is connected via voltage divider\n- Move F_Mx pins to fpga directly (configure flash fpga interaction) using resistors\n- One Clock Oscillator with enable pin\n- One RSTN button for the FPGA logic\n- Bring unused GPIO to connector (for application)"
-		(exclude_from_sim no)
-		(at 105.664 186.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e225db52-18f0-4ecd-a2e5-c1b9d46e52ec")
-	)
 	(text "DirtyJTAG\nFor FPGA"
 		(exclude_from_sim no)
 		(at 163.83 133.35 0)
@@ -10006,23 +9995,25 @@
 		(fields_autoplaced yes)
 		(uuid "3132e39e-7532-431a-9daa-247779b3b1f4")
 		(property "Reference" "S401"
-			(at 187.96 49.53 0)
+			(at 196.85 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "MCU_RSTN"
-			(at 190.5 49.53 0)
+			(at 196.85 51.4349 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "connectors:TACTILE-SWITCH"
@@ -10829,23 +10820,25 @@
 		(fields_autoplaced yes)
 		(uuid "50b246e7-4f0e-4d3e-8f8e-4cb49ba7a95a")
 		(property "Reference" "S402"
-			(at 245.11 49.53 0)
+			(at 254 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "BTN"
-			(at 247.65 49.53 0)
+			(at 254 51.4349 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "connectors:TACTILE-SWITCH"

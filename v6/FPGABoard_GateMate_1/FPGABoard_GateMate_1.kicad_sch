@@ -5,6 +5,17 @@
 	(uuid "c7d8d43d-63a2-4580-87e3-23da67ff2129")
 	(paper "A4")
 	(lib_symbols)
+	(text "Notes:\n- Make all caps common (0.1u, 1u, 2.2u --> 1u or 10u)\n- Add the resistor circuit to auto-detect the selected fpga board"
+		(exclude_from_sim no)
+		(at 177.546 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "177cb69b-ff44-460d-8262-403b3ccfe0c0")
+	)
 	(text "General: Add testpads for specific signals which will not be moved to other boards"
 		(exclude_from_sim no)
 		(at 179.578 36.83 0)

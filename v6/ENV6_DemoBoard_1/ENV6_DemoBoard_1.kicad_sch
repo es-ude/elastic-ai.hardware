@@ -39,6 +39,17 @@
 		)
 		(uuid "38e7628a-7176-49f7-8e46-e96dccccd1c8")
 	)
+	(text "Notes:\n- Make capacitors to common size (100n / 10u --> 1u or 10u)\n- Check layout of the PAC sensors (in the lib was the wrong package)\n- Make common symbols for the connectors staff\n- Where is the resistor-circuit / path to auto-detect the connected FPGA?\n- Check the questions on the connectors sheet"
+		(exclude_from_sim no)
+		(at 179.578 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50e8345b-00fd-4cd8-be3b-c12a7825946f")
+	)
 	(text "Main Board"
 		(exclude_from_sim no)
 		(at 123.952 104.902 0)
