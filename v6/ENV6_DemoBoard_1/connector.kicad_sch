@@ -1674,7 +1674,7 @@
 	)
 	(text "Questions:\n- Which function has FPGA_RST? Logic RST or Config-RST?\n- Where can I readout which FPGA is connected?\n- Clock is placed on the other board, right?\n--> Maybe make a list / sheet with the function of each pin"
 		(exclude_from_sim no)
-		(at 124.46 17.272 0)
+		(at 118.618 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
